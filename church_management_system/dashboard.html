@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Church Management System</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>Church Management System</h2>
+            </div>
+            <ul class="nav-list">
+                <li><a href="Announcement.html"><i class='bx bx-bell'></i> Announcement</a></li>
+                <li><a href="Member Information.html"><i class='bx bx-user'></i> Members Information</a></li>
+                <li><a href="Event.html"><i class='bx bx-calendar'></i> Event</a></li>
+                <li><a href="Ministries and Volunteer.html"><i class='bx bx-group'></i> Ministries</a></li>
+                <li><a href="Donation and Offering.html"><i class='bx bx-bar-chart'></i> Donations & Offering</a></li>
+                <li><a href="Attenadance Tracking.html"><i class="bx bx-check-circle"></i> Attendance Tracking</a></li>
+                <li><a href="login.php"><i class="bx bx-log-out"></i> Logout</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main content -->
+        <main class="main-content">
+            <!-- Navbar -->
+            <header class="navbar">
+                <!-- <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button><i class='bx bx-search'></i></button>
+                </div> -->
+                <!-- <div class="user-profile">
+                    <i class='bx bx-bell'></i>-->
+                    <img src="Logo.jpg" alt="User" style="height: 40px; width: 40px;">
+                <!-- </div>  -->
+            </header>
+
+            <!-- Dashboard content -->
+            <section class="dashboard">
+                <h2 style="color: aliceblue;">Dashboard Overview</h2>
+
+                <div class="stats-cards">
+                    <div class="card">
+                       <a href="R_Member information.php"><h3 class="bx bx-user"> Members Information</h3></a>
+                    </div>
+                    <div class="card1">
+                       <a href="R_Event.php"><h3 class="bx bx-calendar"> Event</h3></a>
+                    </div>
+                    <div class="card2">
+                       <a href="R_Ministries.php"><h3 class="bx bx-group"> Ministries</h3></a>
+                    </div>
+                    <div class="card3">
+                       <a href="R_Donation.php"><h3 class='bx bx-bar-chart'> Donations & Offering</h3></a>
+                    </div>
+                    <div class="card4">
+                       <a href="R_Attendance.php"><h3 class='bx bx-check-circle'> Attendance Tracking</h3></a>
+                    </div>
+                    <div class="card5">
+                        <a href="signup.php"><i class="bx bx-user-circle"></i>Add New  Admin</a>
+
+                     </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
